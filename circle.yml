@@ -1,3 +1,6 @@
 test: 
+  pre:
+    - pwd
+    - ls
   override:
     - $HOME/cordova-ios-poc/cordova/build
