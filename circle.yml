@@ -4,9 +4,6 @@ dependencies:
     - /usr/bin/env node -v
 test: 
   override:
-    - node -v
-    - pwd
-    - ls $HOME/cordova-ios-poc/platforms/ios/cordova
     - $HOME/cordova-ios-poc/platforms/ios/cordova/build
   post:
     - cp -r $HOME/cordova-ios-poc/platforms/ios/build $CIRCLE_ARTIFACTS
