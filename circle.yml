@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - brew install node
+    - /usr/bin/env node -v
 test: 
   override:
     - node -v
