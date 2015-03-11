@@ -1,5 +1,5 @@
 test: 
   override:
     - pwd
-    - ls
+    - ls $HOME/platforms/ios/cordova/build
     - $HOME/platforms/ios/cordova/build
