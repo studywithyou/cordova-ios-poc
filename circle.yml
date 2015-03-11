@@ -1,3 +1,6 @@
+dependencies:
+  pre:
+    - brew install node
 test: 
   override:
     - node -v
