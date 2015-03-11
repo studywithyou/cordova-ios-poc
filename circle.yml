@@ -3,4 +3,4 @@ test:
     - pwd
     - ls
   override:
-    - $HOME/cordova-ios-poc/cordova/build
+    - $HOME/cordova-ios-poc/platforms/ios/cordova/build
