@@ -1,5 +1,6 @@
 test: 
   override:
+    - node -v
     - pwd
     - ls $HOME/platforms/ios/cordova/build
     - $HOME/platforms/ios/cordova/build
